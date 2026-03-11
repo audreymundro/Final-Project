@@ -1,14 +1,13 @@
-function Card1(){
-    const title = "About Me";
-    const bio = "Hi! My name is Audrey and I am 18 years old. I like sports, reading, and traveling. I am passionate about STEM, Formula , and soccer. I would like to work in F1 or motorsports later in my life.";
-    const emoji = "🏎️";
+function Card1({myTitle, mySubtitle, myName, myTitleTwo, myBio, myEmoji}){
 
     return (
-        <div className="aboutme-card border-black-950 border-4 rounded-xl p-4ext-center 
-        hover:shadow-xl hover:bg-black hover:text-white hover:border-red-500">
-            <h3 className="font-serif m-4">{title}</h3>
-            <p className="text-red-500 font-sans px-15 py-4">{bio}</p>
-            <span className="text-6xl">{emoji}</span>
+        <div className="m-4">
+            <h1 className="font-serif text-xl font-bold m-2">{myTitle}</h1>
+            <h2 className="font-sans text-lg m-2">{mySubtitle}</h2>
+            <h3 className="font-sans text-md m-2">{myName}</h3>
+            <h3 className="font-sans text-md font-bold m-2">{myTitleTwo}</h3>
+            <p className="text-red-500 font-sans m-2">{myBio}</p>
+            <span className="text-6xl m-2">{myEmoji}</span>
         </div>
     );
 }
