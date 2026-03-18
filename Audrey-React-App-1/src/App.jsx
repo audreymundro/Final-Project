@@ -2,18 +2,13 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
-
+import Header from "./components/Header";
+  
 function App() {
   return (
     <div>
-    <BrowserRouter>
-      <nav className="text-center text-xl">
-
-        <Link to="/">Home</Link> |{" "}
-        <Link to="/about">About</Link> |{" "}
-        <Link to="/profile">Profile</Link>
-      </nav>
-
+      <Header />
+      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

@@ -12,6 +12,8 @@ function About() {
                 myName="Audrey Mundro"
                 mySubtitle="Welcome to my website!"
                 myBio="Hi! I am 18 years old. I like sports, reading, and traveling. I am passionate about STEM, Formula 1, and soccer. I would like to work in F1 or motorsports later in my life."
+                myGithub={<a href="https://github.com/audreymundro"></a>}
+                addMore="I love cooking and baking. I also really enjoying learning new things, no matter what it's about. I love spending my free time in nature and exploring new places."
             />
             <AboutPurposeCard
                 myTitle="Our Purpose:"
