@@ -5,11 +5,12 @@ function AboutCreatorCard({myTitle, mySubtitle, myName, myBio, myGithub, addMore
 
     return (
         <div className="m-4 font-serif border-2 border-gray-500 rounded-lg p-4">
-            <h1 className="text-xl font-bold m-2">{myTitle} {myName}</h1>
-            <h2 className="text-lg m-2">{mySubtitle}</h2>
-            <p className="m-2">{myBio}</p>
+            <h1 className="text-xl font-bold m-2">{myTitle}</h1>
+            <h2 className="text-lg m-2">{myName} {myBio}</h2>
+            <p><a href={myGithub} className="text-blue-500 hover:underline">Github Repository</a></p>
+            <p className="m-2">Message from the Author: {mySubtitle} {addMore}</p>
 
-            <button onClick={() => setShowMore(!showMore)} className="mt-4 text-small text-blue-500 hover:text-blue-700 font-semibold">
+            {/*<button onClick={() => setShowMore(!showMore)} className="mt-4 text-small text-blue-500 hover:text-blue-700 font-semibold">
               {showMore ? "Show Less" : "Show More"}
             </button>
 
@@ -20,10 +21,10 @@ function AboutCreatorCard({myTitle, mySubtitle, myName, myBio, myGithub, addMore
                         </p>
                     )}
                 {addMore && (
-                    <p className="m-2">More About Me: {addMore}</p>
+                    <p className="m-2">Message from the Author: {mySubtitle} {addMore}</p>
                 )}
                 </div>
-            )}
+            )}*/}
         </div>
     );
 }
