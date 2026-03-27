@@ -5,7 +5,7 @@ import AboutInfoCard from "../components/aboutpagecards/AboutInfoCard";
 function About() {
     return (
         <div>
-            <h1 className="text-4xl font-bold font-serif text-center py-4">About Finish the Formula</h1>
+            <h1 className="text-4xl font-bold font-serif text-center p-8">About Finish the Formula</h1>
             <AboutCreatorCard
                 myTitle="About the Creator:"
                 myName="Audrey Mundro"
