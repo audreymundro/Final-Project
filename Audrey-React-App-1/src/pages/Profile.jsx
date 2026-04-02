@@ -10,7 +10,7 @@ function Profile() {
         myName="Audrey Mundro"
         myAge="18"
         myBio="I am a senior in high school who is going to college next year. I am passionate about chemistry, coding, and engineering. I want to work in Formula 1 after college."
-        myProfilePic="./images/f1academyphoto1.jpeg"
+        myProfilePic="./images/oscarpiastri2.png"
       />
       <ProfileMoreCard
         myEducation="High School Diploma"
@@ -18,8 +18,8 @@ function Profile() {
         mySkills="JavaScript, React, CSS"
       />
       <ProfileSuggestionCard
-        otherProfilePic="./images/f1academyphoto2.jpeg"
-        otherName="Hannah Mueller"
+        otherProfilePic="./images/lauramueller.webp"
+        otherName="Laura Müeller"
         otherAge="25"
         otherBio="Race Engineer at Haas TGR F1 Team"
       />
