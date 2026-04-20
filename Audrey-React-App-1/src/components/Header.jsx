@@ -1,33 +1,25 @@
 import { useState } from 'react';
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import LikeButton from './buttons/LikeButton';
 
 function Header() {
-  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <header className='bg-gray-900 text-white px-6 py-4'>
       <div className="flex justify-between items-center">
-        <h1 className="text-4xl font-bold"><img src="./images/finishtheformulacapstoneapplogo.png" alt="Logo" className="inline-block mr-2 size-20" />Finish the Formula</h1>
-
-        <button onClick={() => setIsOpen(!isOpen)} className="text-4xl text-white">
-          {isOpen ? "✖" : "☰"}
-        </button>
-        </div>
-
-      {isOpen && (
+            <h1 className="text-4xl font-bold"><img src="./images/finishtheformulacapstoneapplogo.png" alt="Logo" className="inline-block mr-2 size-20" />Finish the Formula</h1>
+      </div>
         <nav className='mt-4'>
-          <ul className="flex flex-col gap-2 text-lg">
-              <li> <a href="/">Home</a></li>
-              <li> <a href="/about">About</a></li>
-              <li> <a href="/profile">Profile</a></li>
-              <li><a href="/articles">Articles</a></li>
-              <li><a href="/programs">Programs</a></li>
-              <li><a href="/loginpage">Login</a></li>
-              {/* <li> <a href="/login">Login</a> </li>
+          <div className="flex flex-col gap-2 text-lg">
+              <Link to="/">Home</Link>
+               <Link to="/about">About</Link>
+              <Link to="/profile">Profile</Link>
+              <Link to="/articles">Articles</Link>
+              <Link to="/programs">Programs</Link>
+              {/*<Link to="/login">Login</Link>
               <li><LikeButton /></li> */}
-          </ul>
+          </div>
         </nav>
-      )}
     </header>
   );
 }
