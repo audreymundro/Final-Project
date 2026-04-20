@@ -4,7 +4,7 @@ import About from "./pages/About";
 import Profile from "./pages/Profile";
 import Articles from "./pages/Articles";
 import Programs from "./pages/Programs";
-import Login from "./pages/Login";
+//import Login from "./pages/Login";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 //import LoginPage from ".pages/LoginPage";
@@ -21,12 +21,12 @@ function App() {
             <Route path="/profile" element={<Profile />} />
             <Route path="/articles" element={<Articles />} />
             <Route path="/programs" element={<Programs />} />
-            {/*<Route path="/login" element={<Login />} />
-            <Route path="/loginpage" element={<LoginPage />} />
+            {/*<Route path="/loginpage" element={<LoginPage />} />
             <Route path="/signuppage" element={<SignupPage />} />*/}
           </Routes>
         </BrowserRouter>
         <Footer />
+        
       </div>
   );
 }

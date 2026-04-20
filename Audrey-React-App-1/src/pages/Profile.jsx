@@ -18,10 +18,7 @@ function Profile() {
         mySkills="JavaScript, React, CSS"
       />
       <ProfileSuggestionCard
-        otherProfilePic="./images/lauramueller.webp"
-        otherName="Laura Müeller"
-        otherAge="25"
-        otherBio="Race Engineer at Haas TGR F1 Team"
+        suggestionTitle="Other Profiles You May Like"
       />
     </>
   );

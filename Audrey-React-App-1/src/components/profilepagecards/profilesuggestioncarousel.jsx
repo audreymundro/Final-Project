@@ -2,11 +2,11 @@ import ProfileExtraCard from "./extraprofilescode";
 
 function ProfileSuggestionCarousel({suggestions}) {
   return (
-    <div className="carousel rounded-box">
-  <div className="carousel-item p-4">
-    <ProfileExtraCard
-      otherProfilePic="./images/lauramueller.webp"
-      otherName="Laura Mueller"
+      <div className="carousel rounded-box">
+        <div className="carousel-item p-4">
+          <ProfileExtraCard
+            otherProfilePic="./images/lauramueller.webp"
+            otherName="Laura Mueller"
       otherAge="25"
       otherBio="Race Engineer at TGR Haas F1 Team"
     />

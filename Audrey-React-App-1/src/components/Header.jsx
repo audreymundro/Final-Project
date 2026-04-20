@@ -22,6 +22,7 @@ function Header() {
               <li> <a href="/profile">Profile</a></li>
               <li><a href="/articles">Articles</a></li>
               <li><a href="/programs">Programs</a></li>
+              <li><a href="/loginpage">Login</a></li>
               {/* <li> <a href="/login">Login</a> </li>
               <li><LikeButton /></li> */}
           </ul>
