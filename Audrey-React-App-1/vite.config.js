@@ -8,5 +8,5 @@ export default defineConfig({
   resolve: {
     dedupe: ['react', 'react-dom'],
   },
-  base: '/Audrey-React-App-1/',
+  base: '/Final-Project/',
 })
