@@ -1,30 +1,47 @@
-function CarouselA ({myImg1, myImg2, myImg3, myImg4}) {
+import CarouselItem from "./carouselcomponent";
+
+function CarouselA ({itemImg1, itemTit1, itemDesc1, itemImg2, itemTit2, itemDesc2, itemImg3, itemTit3, itemDesc3, itemImg4, itemTit4, itemDesc4}) {
     return (
-        <div className="carousel h-full rounded-xl">
+        <div className="carousel h-full rounded-lg">
             <div id="slide1" className="carousel-item relative w-full">
-                <img src={myImg1} className="h-full w-1/2 overflow-hidden" />
+                <CarouselItem
+                    carImage={itemImg1}
+                    carTitle={itemTit1}
+                    carDescription={itemDesc1}
+                />
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide4" className="btn btn-circle">❮</a>
                     <a href="#slide2" className="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide2" className="carousel-item relative w-full">
-                <img src={myImg2} className="h-full w-1/2 overflow-hidden" />
+                <CarouselItem
+                    carImage={itemImg2}
+                    carTitle={itemTit2}
+                    carDescription={itemDesc2}
+                />
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide1" className="btn btn-circle">❮</a>
                     <a href="#slide3" className="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide3" className="carousel-item relative w-full">
-                <img src={myImg3} className="h-full w-1/2 overflow-hidden" />
+                <CarouselItem
+                    carImage={itemImg3}
+                    carTitle={itemTit3}
+                    carDescription={itemDesc3}
+                />
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide2" className="btn btn-circle">❮</a>
                     <a href="#slide4" className="btn btn-circle">❯</a>
                 </div>
             </div>
             <div id="slide4" className="carousel-item relative w-full flex">
-                <img src={myImg4} className="h-full w-1/2 overflow-hidden" />
-                
+                <CarouselItem
+                    carImage={itemImg4}
+                    carTitle={itemTit4}
+                    carDescription={itemDesc4}
+                />
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide3" className="btn btn-circle">❮</a>
                     <a href="#slide1" className="btn btn-circle">❯</a>

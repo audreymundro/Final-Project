@@ -12,8 +12,8 @@ import Footer from "./components/Footer";
 function App() {
   return (
       <div className="bg-gray-100 text-black">
-        <Header />
-        <BrowserRouter basename="/Audrey-React-App-1">
+        <BrowserRouter basename="/Final-Project/">
+          <Header />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
