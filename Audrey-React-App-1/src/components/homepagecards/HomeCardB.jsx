@@ -9,10 +9,10 @@ function HomeCardB({cardTitle}) {
                 itemPic1={"./images/f1photo1.avif"}
                 itemTitle1={"F1 News"}
                 itemBio1={"Bio for F1 News"}
-                itemPic2={"./images/f1photo2.jpg"}
+                itemPic2={"./images/f1grid.jpg"}
                 itemTitle2={"F1 Grid"}
                 itemBio2={"Bio for F1 Grid"}
-                itemPic3={"./images/f1photo3.jpg"}
+                itemPic3={"./images/f1cadillac2026.jpg"}
                 itemTitle3={"Cadillac in the New Regulations"}
                 itemBio3={"Bio for Cadillac in the New Regulations"}
                 itemPic4={"./images/oscarpiastri.avif"}
