@@ -1,50 +1,50 @@
 import CarouselItem from "./carouselcomponent";
 
-function CarouselB ({itemPic1, itemTitle1, itemBio1, itemPic2, itemTitle2, itemBio2, itemPic3, itemTitle3, itemBio3, itemPic4, itemTitle4, itemBio4}) {
+function CarouselB ({bPic1, bTitle1, bBio1, bPic2, bTitle2, bBio2, bPic3, bTitle3, bBio3, bPic4, bTitle4, bBio4}) {
     return (
         <div className="carousel h-full rounded-lg">
-            <div id="c2-slide1" className="carousel-item relative w-full">
+            <div id="bslide1" className="carousel-item relative w-full">
                 <CarouselItem
-                    carImage={itemPic1}
-                    carTitle={itemTitle1}
-                    carDescription={itemBio1}
+                    carImage={bPic1}
+                    carTitle={bTitle1}
+                    carDescription={bBio1}
                 />
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#c2-slide4" className="btn btn-circle">❮</a>
-                    <a href="#c2-slide2" className="btn btn-circle">❯</a>
+                    <a href="#bslide4" className="btn btn-circle">❮</a>
+                    <a href="#bslide2" className="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="c2-slide2" className="carousel-item relative w-full">
+            <div id="bslide2" className="carousel-item relative w-full">
                 <CarouselItem
-                    carImage={itemPic2}
-                    carTitle={itemTitle2}
-                    carDescription={itemBio2}
+                    carImage={bPic2}
+                    carTitle={bTitle2}
+                    carDescription={bBio2}
                 />
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#c2-slide1" className="btn btn-circle">❮</a>
-                    <a href="#c2-slide3" className="btn btn-circle">❯</a>
+                    <a href="#bslide1" className="btn btn-circle">❮</a>
+                    <a href="#bslide3" className="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="c2-slide3" className="carousel-item relative w-full">
+            <div id="bslide3" className="carousel-item relative w-full">
                 <CarouselItem
-                    carImage={itemPic3}
-                    carTitle={itemTitle3}
-                    carDescription={itemBio3}
+                    carImage={bPic3}
+                    carTitle={bTitle3}
+                    carDescription={bBio3}
                 />
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#c2-slide2" className="btn btn-circle">❮</a>
-                    <a href="#c2-slide4" className="btn btn-circle">❯</a>
+                    <a href="#bslide2" className="btn btn-circle">❮</a>
+                    <a href="#bslide4" className="btn btn-circle">❯</a>
                 </div>
             </div>
-            <div id="c2-slide4" className="carousel-item relative w-full">
+            <div id="bslide4" className="carousel-item relative w-full">
                 <CarouselItem
-                    carImage={itemPic4}
-                    carTitle={itemTitle4}
-                    carDescription={itemBio4}
+                    carImage={bPic4}
+                    carTitle={bTitle4}
+                    carDescription={bBio4}
                 />
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                    <a href="#c2-slide3" className="btn btn-circle">❮</a>
-                    <a href="#c2-slide1" className="btn btn-circle">❯</a>
+                    <a href="#bslide3" className="btn btn-circle">❮</a>
+                    <a href="#bslide1" className="btn btn-circle">❯</a>
                 </div>
             </div>
         </div>

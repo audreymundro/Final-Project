@@ -1,4 +1,4 @@
-import ProfileExtraCard from "./extraprofilescode";
+import ProfileExtraCard from "./otherProfileCard";
 
 function ProfileSuggestionCarousel({suggestions}) {
   return (
