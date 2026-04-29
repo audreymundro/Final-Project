@@ -1,4 +1,4 @@
-function ProgramCard({ progTitle, progSummary, progImg }) {
+function ProgramCard({ progTitle, progSummary, progImg, progLink }) {
     return (
         <div className="border p-4 rounded-lg h-170 w-130">
             <h2 className="text-2xl font-bold mb-2 p-2">{progTitle}</h2>
@@ -6,6 +6,7 @@ function ProgramCard({ progTitle, progSummary, progImg }) {
                 <img className="object-cover h-full w-full rounded-md" src={progImg} alt={progTitle} />
             </div>
             <p className="p-2">{progSummary}</p>
+            <a href={progLink} className="text-blue-500 hover:underline">Read More</a>
         </div>
     );
 }

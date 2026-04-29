@@ -5,7 +5,7 @@ function AboutCreatorCard({myTitle, myName, myBio, myGithub, myImg}){
 
     return (
         <div className="m-10 font-serif border-2 border-gray-500 rounded-lg p-4 flex">
-            <img className="w-32 h-32 rounded-full" src={myImg} alt="Creator Picture" />
+            <img className="w-50 h-50 rounded-full" src={myImg} alt="Creator Picture" />
             <div className="flex flex-col justify-center">
                 <h1 className="text-xl font-bold m-2">{myTitle}</h1>
                 <h2 className="text-lg m-2">{myName} {myBio}</h2>
