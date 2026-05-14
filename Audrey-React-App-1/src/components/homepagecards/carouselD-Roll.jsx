@@ -9,7 +9,7 @@ function RacesCarousel({ }) {
                         rTitle="Qatar Airways Australian Grand Prix 2026"
                         rDate="6 Mar - 8 Mar"
                         rPlace="Albert Park, Melbourne"
-                        rImage="https://via.placeholder.com/150"
+                        rImage="./images/australiangrandprix.jpg"
                         pOne="George Russell"
                         pTwo="Kimi Antonelli"
                         pThree="Charles Leclerc"

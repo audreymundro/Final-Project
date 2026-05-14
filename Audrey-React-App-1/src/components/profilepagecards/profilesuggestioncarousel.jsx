@@ -21,7 +21,7 @@ function ProfileSuggestionCarousel({suggestions}) {
         </div>
         <div className="carousel-item p-4">
           <ProfileExtraCard
-            otherProfilePic="./images/dorianepin.png"
+            otherProfilePic="./images/f1adrivers/dorianepin.png"
             otherName="Doriane Pin"
             otherAge="22"
             otherBio="Development Driver for Mercedes AMG Petronas F1 Team"
@@ -53,7 +53,7 @@ function ProfileSuggestionCarousel({suggestions}) {
         </div>
         <div className="carousel-item p-4">
           <ProfileExtraCard
-            otherProfilePic="./images/dorianepin.png"
+            otherProfilePic="./images/f1adrivers/dorianepin.png"
             otherName="Doriane Pin"
             otherAge="22"
             otherBio="Development Driver for Mercedes AMG Petronas F1 Team"

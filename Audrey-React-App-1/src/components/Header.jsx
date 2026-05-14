@@ -6,7 +6,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className='bg-gray-900 text-white px-6 py-4'>
+    <header className="bg-gray-900 text-white px-6 py-4">
       <div className="flex justify-between items-center">
         <h1 className="text-4xl font-bold"><img src="./images/finishtheformulacapstoneapplogo.png" alt="Logo" className="inline-block mr-2 size-20" />Finish the Formula</h1>
 
@@ -23,7 +23,7 @@ function Header() {
               <li> <Link to="/profile">Profile</Link></li>
               <li><Link to="/articles">Articles</Link></li>
               <li><Link to="/programs">Programs</Link></li>
-              <li><Link to="/loginpage">Login</Link></li>
+              <li><Link to="/login">Login</Link></li>
               {/* <li> <Link to="/login">Login</Link> </li>
               <li><LikeButton /></li> */}
           </ul>
